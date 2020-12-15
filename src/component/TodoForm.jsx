@@ -11,6 +11,13 @@ const TodoForm = ({ addTodo, showAdd }) => {
       alert("No Blank Todo!");
       return;
     }
+
+    if (value.length > 40) {
+      alert("Cobalah membuat list lebih pendek!");
+      setValue("");
+      return;
+    }
+
     addTodo(value);
     setValue("");
   };
