@@ -61,7 +61,7 @@ html {
   text-transform: lowercase;
 } */
 
-.add {
+/* .add {
   padding: 16px;
 }
 
@@ -83,9 +83,9 @@ html {
   font-family: "Homemade Apple", sans-serif;
   font-size: 16px;
   text-transform: lowercase;
-}
+} */
 
-.add-btn {
+/* .add-btn {
   font-size: 1.8rem;
   font-family: "Bungee", sans-serif;
 
@@ -99,14 +99,14 @@ html {
 }
 .add-btn.main-black-color:active {
   text-shadow: 1px 1px 2px var(--main-black-color);
-}
+} */
 
-.todos {
+/* .todos {
   display: flex;
   flex-direction: column;
 
   min-height: 500px;
-}
+} */
 
 /* .todo {
   position: relative;
@@ -130,7 +130,7 @@ html {
   transform: translate(-50%);
 } */
 
-.todo-placeholder-text {
+/* .todo-placeholder-text {
   font-family: "Homemade Apple", sans-serif;
   font-size: 24px;
   text-align: center;
@@ -140,4 +140,4 @@ html {
 .add-button-placeholder-text {
   font-family: "Bungee", sans-serif;
   font-size: 24px;
-}
+} */
