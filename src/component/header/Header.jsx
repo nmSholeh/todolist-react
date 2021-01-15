@@ -7,7 +7,7 @@ import { useTheme } from "@emotion/react";
 import Container from "../../layout/Container";
 import Item from "../../layout/Item";
 
-import Button from "../button/Button";
+import Button from "../button/ButtonNoJSX";
 
 // import styles from "./header.module.css";
 import * as styles from "./header.styles";
