@@ -3,11 +3,12 @@
 import { jsx } from "@emotion/react";
 import PropTypes from "prop-types";
 import { useTheme } from "@emotion/react";
+import { Link } from "react-router-dom";
 
 import Container from "../../layout/Container";
 import Item from "../../layout/Item";
 
-import Button from "../button/ButtonNoJSX";
+import Button from "../button/Button";
 
 // import styles from "./header.module.css";
 import * as styles from "./header.styles";
