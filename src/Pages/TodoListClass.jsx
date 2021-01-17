@@ -11,11 +11,30 @@ class TodoList extends React.Component {
   state = {
     todos: [
       { text: "Learning React!", isCompleted: false },
-      { text: "Learning React Hooks", isCompleted: false },
-      { text: "Learning Styling in React", isCompleted: false }
+      { text: "Learninng React Hooks", isCompleted: false },
+      { text: "Learning React!", isCompleted: false }
     ],
     showAdd: false
   };
+
+  // componentDidMount() {
+  //   const todosStateLocalStorage =
+  //     JSON.parse(localStorage.getItem("todos")) || [];
+
+  //   const showAddStateLocalStorage =
+  //     JSON.parse(localStorage.getItem("showAdd")) || false;
+
+  //   this.setState({
+  //     todos: todosStateLocalStorage,
+  //     showAdd: showAddStateLocalStorage
+  //   });
+  // }
+
+  // componentDidUpdate() {
+  //   const { todos, showAdd } = this.state;
+  //   localStorage.setItem("todos", JSON.stringify(todos));
+  //   localStorage.setItem("showAdd", JSON.stringify(showAdd));
+  // }
 
   addTodo = (value) => {
     const { todos } = this.state;
@@ -27,7 +46,7 @@ class TodoList extends React.Component {
         todos: addedTodo
       });
     } else {
-      alert("Hanya bisa 10 list todo");
+      alert("Hanya Bisa 10 List Todo");
     }
   };
 
